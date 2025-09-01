@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias y Sabores Caseros</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Delicias & Sabores Caseros</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Página de Inicio -->
+    <section id="inicio" class="page active-page">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="main-title">Delicias & Sabores Caseros</h1>
+                <p class="hero-subtitle">Productos artesanales hechos con amor desde el corazón de Guatemala</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <span class="feature-icon">🌱</span>
+                        <h3>100% Natural</h3>
+                        <p>Ingredientes frescos y naturales</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">👩‍🍳</span>
+                        <h3>Hecho en Casa</h3>
+                        <p>Recetas tradicionales familiares</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">❤️</span>
+                        <h3>Con Amor</h3>
+                        <p>Cada producto hecho con dedicación</p>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="showPage('productos')">Ver Productos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página de Productos -->
+    <section id="productos" class="page">
+        <div class="container">
+            <h2 class="page-title">Nuestros Productos Artesanales</h2>
+            <div class="products-grid">
+                <div class="product-card granola">
+                    <div class="product-image">
+                        <div class="image-placeholder granola-bg">
+                            <span class="product-emoji">🥣</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Granola Artesanal</h3>
+                        <p>Mezcla perfecta de avena, frutos secos, miel y semillas. Rica en fibra y proteínas, ideal para un desayuno nutritivo y delicioso.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Sin conservantes</span>
+                            <span class="feature-tag">Rico en fibra</span>
+                            <span class="feature-tag">Energizante</span>
+                        </div>
+                        <div class="product-price">Q35.00</div>
+                    </div>
+                </div>
+
+                <div class="product-card mermelada">
+                    <div class="product-image">
+                        <div class="image-placeholder mermelada-bg">
+                            <span class="product-emoji">🍓🍍</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mermelada de Fresa y Piña</h3>
+                        <p>Deliciosa combinación de fresas frescas y piña madura. Sin azúcar refinada, endulzada naturalmente con miel de abeja local.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Sin azúcar refinada</span>
+                            <span class="feature-tag">Fruta local</span>
+                            <span class="feature-tag">Miel natural</span>
+                        </div>
+                        <div class="product-price">Q28.00</div>
+                    </div>
+                </div>
+
+                <div class="product-card almibar">
+                    <div class="product-image">
+                        <div class="image-placeholder almibar-bg">
+                            <span class="product-emoji">🍑</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Almíbar de Durazno</h3>
+                        <p>Duraznos seleccionados en almíbar casero. Perfectos para postres, acompañar helados o disfrutar solos como un dulce tentempié.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Fruta seleccionada</span>
+                            <span class="feature-tag">Receta tradicional</span>
+                            <span class="feature-tag">Versátil</span>
+                        </div>
+                        <div class="product-price">Q32.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página Nosotros -->
+    <section id="nosotros" class="page">
+        <div class="container">
+            <h2 class="page-title">Nuestra Historia</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Una tradición familiar</h3>
+                    <p>En Delicias y Sabores Caseros, llevamos más de 15 años elaborando productos artesanales con recetas que han pasado de generación en generación. Ubicados en el hermoso Santa Cruz del Quiché, utilizamos ingredientes locales de la más alta calidad.</p>
+                    
+                    <h3>Nuestro compromiso</h3>
+                    <p>Nos comprometemos a ofrecer productos 100% naturales, sin conservantes artificiales ni aditivos químicos. Cada frasco que sale de nuestra cocina lleva el amor y la dedicación de nuestras manos artesanas.</p>
+
+                    <h3>Calidad garantizada</h3>
+                    <p>Trabajamos directamente con productores locales para asegurar la frescura y calidad de nuestros ingredientes. Cada lote es preparado en pequeñas cantidades para mantener la frescura y el sabor casero.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder about-bg">
+                        <span class="about-emoji">🏠</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página de Contacto -->
+    <section id="contacto" class="page">
+        <div class="container">
+            <h2 class="page-title">Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>📍 Ubicación</h3>
+                        <p>6ª. Avenida 0-11 Zona 2<br>Santa Cruz del Quiché<br>El Quiché, Guatemala</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>📞 Teléfonos</h3>
+                        <p><strong>Principal:</strong> 5967-1069<br><strong>Alternativo:</strong> 55868399</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>✉️ Correo Electrónico</h3>
+                        <p>martagi83@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>🕐 Horarios de Atención</h3>
+                        <p><strong>Lunes a Viernes:</strong> 8:00 AM - 6:00 PM<br><strong>Sábados:</strong> 8:00 AM - 4:00 PM<br><strong>Domingos:</strong> Por cita previa</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Envíanos un mensaje</h3>
+                    <form>
+                        <input type="text" placeholder="Tu nombre" required>
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <input type="tel" placeholder="Tu teléfono">
+                        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
